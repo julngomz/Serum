@@ -21,9 +21,9 @@ defmodule Serum.PostList do
   alias Serum.Fragment
   alias Serum.Plugin.Client, as: PluginClient
   alias Serum.Renderer
-  alias Serum.Tag
   alias Serum.Template.Storage, as: TS
   alias Serum.V2
+  alias Serum.V2.Tag
 
   @type t :: %__MODULE__{
           tag: maybe_tag(),
