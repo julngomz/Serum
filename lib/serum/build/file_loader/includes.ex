@@ -7,10 +7,10 @@ defmodule Serum.Build.FileLoader.Includes do
 
   import Serum.Build.FileLoader.Common
   import Serum.V2.Console, only: [put_msg: 2]
-  alias Serum.Error
   alias Serum.Plugin.Client, as: PluginClient
   alias Serum.Result
   alias Serum.Theme
+  alias Serum.V2.Error
 
   @doc false
   @spec load(binary()) :: Result.t([Serum.File.t()])
